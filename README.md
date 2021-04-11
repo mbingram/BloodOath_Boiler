@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+WELCOME TO THE FIRST OFFICIAL....
+**FLATIRON REACT BLOOD OATH**
+🔪🔪🔪🩸🩸🩸🗡🗡🗡🔪🔪🔪🩸🩸🩸🗡🗡🗡
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Here's the deal:
+    Our powerful leaders have so much charsima that they have attracted too many potential followers to manage. They have hired you to develop a web app for making the recruitment process easier for them. They would like to be able to browse a list of potential followers, view their details, and enlist or dismiss a follower from the Cult.
 
-In the project directory, you can run:
+## INSTRUCTIONS
 
-### `yarn start`
+## Setup
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+After cloning down the project:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Run `npm install` in your terminal
+2. Run `npm start`: This will open both your React page on port `6002` and your backend on port `6001`.
 
-### `yarn test`
+## Endpoints
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The base URL for your backend is: `http://localhost:6001/cultists`
 
-### `yarn build`
+These are the endpoints you might need:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- GET: `/cultists`
+- POST: `/cultists`
+- DELETE: `/cultists/:id`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## What You Already Have
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`FollowersPage` is the highest component below App, and serves as the main container for all of the pieces of the page.
 
-### `yarn eject`
+`Collection` and `Cult` are container components, which are children of `FollowersPage`. `Collection` is where all the potential recruits will be displayed, while `Cult` (the green portion on the top of the screen) will only display the recruits that have been selected by our fearless leader.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+`FollowerCard` is a presentational component that has been provided for you that will render out information about an individual recruit. They are pre-styled, and it is your responsibility to get the data into them.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+All of the code to style the page has been written for you, meaning that you should be adding to the code rather than editing it; however, if your finished product has some styling issues, don't worry too much about it.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Core Deliverables
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+As a user, I should be able to:
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- See profiles of all recruits rendered in `Collection`.
+- Add an individual recruit to my cult by clicking on it. The selected recruit should render in the `Cult` component. The recruit can be enlisted only **once**. The recruit **does not** disappear from the `Collection`.
+- Release a follower from my cult by clicking on it. The follower disappears from the `Cult` component.
+<!-- - Discharge a recruit from their contract forever, by clicking the red button marked "x", which would delete the recruit both from the backend and from the `Cult` on the frontend. -->
