@@ -1,9 +1,11 @@
 import React from 'react'
 
-export default function FollowerCard() {
+export default function FollowerCard(props) {
+    console.log(props.recruit.name)
+
     return (
-        <div>
-            
+        <div className="follower-card">
+
         </div>
     )
 
