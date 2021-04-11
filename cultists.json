@@ -1,0 +1,15 @@
+{
+    "cultists": [
+        {"name": "Cell", "pic": "src/cultists/cell.jpg", "catchphrase": "t last. All that I have ever imagined is now mine. I have become what no other could ever achieve. I am perfect."},
+        {"name": "Covid", "pic": "src/cultists/ccovid.jpg", "catchphrase": "Don't do go outside"},
+        {"name": "HIM", "pic": "src/cultists/HIM.jpg", "catchphrase": "Oh, simple minded mortals, you must plan for the future. What is candy today becomes cavities tomorrow!"},
+        {"name": "James", "pic": "src/cultists/james.jpg", "catchphrase": "...and make it double"},
+        {"name": "Jesse", "pic": "src/cultists/jesse.jpg", "catchphrase": "Prepare for trouble..."},
+        {"name": "Kitty", "pic": "src/cultists/kitty.jpg", "catchphrase": "Way down deep, we're all motivated by the same urges. Cats have the courage to live by them."},
+        {"name": "Majin Buu", "pic": "src/cultists/majin-buu.jpg", "catchphrase": "Come out! Come out! Listen to Buu! Give me the ultimate power!"},
+        {"name": "Mojo Jojo", "pic": "src/cultists/mojo-jojo.jpg", "catchphrase": "I am MOJO JOJO!"},
+        {"name": "Ryuku", "pic": "src/cultists/ryukuj.pg", "catchphrase": "Humans are a riot!"},
+        {"name": "Thanos", "pic": "src/cultists/thanos.jpg", "catchphrase": "Everything Balanced. As it should be"},
+        {"name": "Voldemort", "pic": "src/cultists/voldemort.jpg", "catchphrase": "The boy who lived, come to die"}
+    ]
+}
