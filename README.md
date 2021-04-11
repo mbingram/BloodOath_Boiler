@@ -17,7 +17,7 @@ After cloning down the project:
 
 ## Endpoints
 
-The base URL for your backend is: `http://localhost:3000/cultists`
+The base URL for your backend is: `http://localhost:6001/cultists`
 
 These are the endpoints you might need:
 
