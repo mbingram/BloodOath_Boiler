@@ -1,0 +1,15 @@
+{
+    "cultists": [
+        {"name": "Cell", "pic": "src/cultists/cell.jpg", "catchphrase": ""},
+        {"name": "Covid", "pic": "src/cultists/ccovid.jpg", "catchphrase": "Don't do go outside"},
+        {"name": "HIM", "pic": "src/cultists/HIM.jpg", "catchphrase": ""},
+        {"name": "James", "pic": "src/cultists/james.jpg", "catchphrase": "...and make it double"},
+        {"name": "Jesse", "pic": "src/cultists/jesse.jpg", "catchphrase": "Prepare for trouble..."},
+        {"name": "Kitty", "pic": "src/cultists/kitty.jpg", "catchphrase": ""},
+        {"name": "Majin Buu", "pic": "src/cultists/majin-buu.jpg", "catchphrase": ""},
+        {"name": "Mojo Jojo", "pic": "src/cultists/mojo-jojo.jpg", "catchphrase": ""},
+        {"name": "Ryuku", "pic": "src/cultists/ryukuj.pg", "catchphrase": "Humans are a riot!"},
+        {"name": "Thanos", "pic": "src/cultists/thanos.jpg", "catchphrase": "Everything Balanced. As it should be"},
+        {"name": "Voldemort", "pic": "src/cultists/voldemort.jpg", "catchphrase": "The boy who lived, come to die"}
+    ]
+}
