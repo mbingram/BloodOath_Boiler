@@ -5,9 +5,9 @@
         {"name": "HIM", "pic": "src/cultists/HIM.jpg", "catchphrase": "Sorry, but i'm different"},
         {"name": "James", "pic": "src/cultists/james.jpg", "catchphrase": "...and make it double"},
         {"name": "Jesse", "pic": "src/cultists/jesse.jpg", "catchphrase": "Prepare for trouble..."},
-        {"name": "Kitty", "pic": "src/cultists/kitty.jpg", "catchphrase": "I'm a bad b, you can't kill me"},
+        {"name": "Kitty", "pic": "src/cultists/kitty.jpg", "catchphrase": "I'm a bad b, you can't kill me."},
         {"name": "Majin Buu", "pic": "src/cultists/majin-buu.jpg", "catchphrase": "If you dont like what I'm saying, imagine what i'm thinking"},
-        {"name": "Mojo Jojo", "pic": "src/cultists/mojo-jojo.jpg", "catchphrase": ""},
+        {"name": "Mojo Jojo", "pic": "src/cultists/mojo-jojo.jpg", "catchphrase": "A hoe never gets cold"},
         {"name": "Ryuku", "pic": "src/cultists/ryukuj.pg", "catchphrase": "Humans are a riot!"},
         {"name": "Thanos", "pic": "src/cultists/thanos.jpg", "catchphrase": "Everything Balanced. As it should be"},
         {"name": "Voldemort", "pic": "src/cultists/voldemort.jpg", "catchphrase": "The boy who lived, come to die"}
