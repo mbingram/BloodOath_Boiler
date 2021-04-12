@@ -1,10 +1,13 @@
 import React from 'react'
-import background from './Blood-Oath-soft.png'
 import FollowerCard from '../components/FollowerCard'
+import logo from '../cultists/Blood-Oath-soft.png'
 
 export default function Cult() {
     return (
-        <div className="cult-container" style={{ backgroundImage: `url(${background})` }}>
+        <div className="cult-container">
+            <div className="logo-container">
+                <img className="logo" src={logo} alt="logo"/>
+            </div>
             <FollowerCard />
         </div>
     )
