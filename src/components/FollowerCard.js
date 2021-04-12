@@ -7,6 +7,7 @@ export default function FollowerCard(recruit){
             <img src={standin} alt="cultists"/>
             <h3>{recruit.name}</h3>
             <p>{recruit.cphrase}</p>
+
         </div>
     )
 
