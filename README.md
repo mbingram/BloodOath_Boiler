@@ -40,8 +40,8 @@ All of the code to style the page has been written for you, meaning that you sho
 ## Core Deliverables
 
 As a user, I should be able to:
+See a collection of all potential new followers, as well as their names, catchphrases, and image. The user should also be able to click a recruit in the collection in order to enlist them into the cult, and click them again to dismiss them if they misbehave.
 
-=======
 ## Setup
 
 After cloning down the project:
@@ -77,4 +77,3 @@ As a user, I should be able to:
 - See profiles of all recruits rendered in `Collection`.
 - Add an individual recruit to my cult by clicking on it. The selected recruit should render in the `Cult` component. The recruit can be enlisted only **once**. The recruit **does not** disappear from the `Collection`.
 - Release a follower from my cult by clicking on it. The follower disappears from the `Cult` component.
-<!-- - Discharge a recruit from their contract forever, by clicking the red button marked "x", which would delete the recruit both from the backend and from the `Cult` on the frontend. -->
