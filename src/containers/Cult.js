@@ -7,6 +7,5 @@ export default function Cult() {
             <FollowerCard />
         </div>
     )
-
 }
 
