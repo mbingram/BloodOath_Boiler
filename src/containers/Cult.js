@@ -8,7 +8,6 @@ export default function Cult() {
             <div className="logo-container">
                 <img className="logo" src={logo} alt="logo"/>
             </div>
-            <FollowerCard />
         </div>
     )
 }

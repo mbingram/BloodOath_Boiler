@@ -20,6 +20,7 @@
 }
 
 .follower-card{
+  background: rgb(119, 135, 229);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -31,7 +32,6 @@
   text-align: center;
   margin-top: 15px;
   padding: 5px;
-  background: rgb(206, 233, 236);
 }
 
 .follower-card img{
@@ -40,11 +40,8 @@
   width: 100px;
 }
 
-.follower-card h2{
-  background: chartreuse;
-
+.follower-card h3{
+  color: #fff;
+  margin: 0;
+  padding: 0;
 }
-
-
-
-
