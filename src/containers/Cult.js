@@ -3,7 +3,7 @@ import FollowerCard from '../components/FollowerCard'
 
 export default function Cult() {
     return (
-        <div>
+        <div className="cult-container">
             <FollowerCard />
         </div>
     )
