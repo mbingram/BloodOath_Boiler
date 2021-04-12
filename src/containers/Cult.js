@@ -1,5 +1,5 @@
 import React from 'react'
-import FollowerCard from '../components/FollowerCard'
+
 import logo from '../cultists/Blood-Oath-soft.png'
 
 export default function Cult() {
