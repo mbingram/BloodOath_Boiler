@@ -3,8 +3,11 @@ import FollowerCard from '../components/FollowerCard'
 
 export default function Collection({recruits}) {
 
-    const createCards = () => recruits.map((recruit, index) => {
-        return <FollowerCard recruit={recruit} key={index} />})
+
+    const createCards = () => {
+        return recruits.map(recruit => <FollowerCard name={recruit.name} pic={recruit.pic} cphrase={recruit.catchphrase} />)}
+    
+
 
     return (
         <div className="collection-container">

@@ -4,10 +4,9 @@ import FollowerCard from '../components/FollowerCard'
 
 export default function Cult() {
     return (
-        <div className="cult" style={{ backgroundImage: `url(${background})` }}>
+        <div className="cult-container" style={{ backgroundImage: `url(${background})` }}>
             <FollowerCard />
         </div>
     )
-
 }
 
