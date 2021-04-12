@@ -1,6 +1,12 @@
 .cult-container{
-  height: auto;
-  background: purple;
+  display: flex;
+  height: 300px;
+  background: rgb(255, 123, 197);
+}
+
+.logo {
+  max-height: 300px;
+
 }
 
 .follower-card{
@@ -42,4 +48,6 @@
 .cult {
   background-image: "./Blood-Oath-soft.png"
 }
+
+
 
