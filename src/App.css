@@ -8,9 +8,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid pink;
+  box-shadow: 2px 2px #fff;
+  border: 1px solid #000;
   height: 250px;
-  width: 300px;
+  width: 250px;
   text-align: center;
   margin-top: 15px;
   padding: 10px;
@@ -22,11 +23,18 @@
   width: 100px;
 }
 
+.follower-card h2{
+  background: chartreuse;
+
+}
+
 .collection-container{
   background: powderblue;
   display: flex;
-  flex-flow: row wrap;
   justify-content: space-around;
-  width: auto;
+  align-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vw;
 }
 
