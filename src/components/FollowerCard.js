@@ -24,13 +24,19 @@ const pictures = {
     'Voldemort': VoldemortPicture
 }
 
-export default function FollowerCard(){
-    return (
-        <div className="follower-card">
-            <img src={pictures[recruit.name]} alt="cultists"/>
-            <h3>name</h3>
-            <p>catchphrase</p>
+export default function FollowerCard({ recruit, addRecruit }){
 
+    const { name, catchphrase } = recruit
+
+    const handleClick = (event) => {
+        addRecruit(recruit)
+    }
+
+    return (
+        <div className="follower-card" onClick={handleClick}>
+            <img src={pictures[name]} alt="cultists"/>
+            <h3>{name}</h3>
+            <p>{catchphrase}</p>
         </div>
     )
 
