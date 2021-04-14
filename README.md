@@ -44,4 +44,4 @@ As a user, I should be able to:
 
 - See profiles of all recruits rendered in `Collection`.
 - Add an individual recruit to my cult by clicking on them. The selected recruit should render in the `Cult` component. The recruit can be enlisted only **once**. The recruit **does not** disappear from the `Collection`.
-- Release a follower from my cult by clicking on them. The follower disappears from the `Cult` component.
+- Release a follower from my cult if they misbehave by clicking on them. The follower disappears from the `Cult` component.
