@@ -14,8 +14,9 @@ For this project, you’ll be building out a React application that displays a l
 
 After cloning down the project:
 
-1. Run `npm install` in your terminal
-2. Run `npm start`: This will open both your React page on port `6002` and your backend on port `6001`.
+1. Run `git checkout boiler-plate` in your terminal
+2. Run `npm install` next
+3. Run `npm start`: This will open both your React page on port `6002` and your backend on port `6001`.
 
 ## Endpoints
 
@@ -40,4 +41,7 @@ All of the code to style the page has been written for you, meaning that you sho
 ## Core Deliverables
 
 As a user, I should be able to:
-See a collection of all potential new followers, as well as their names, catchphrases, and image. The user should also be able to click a recruit in the collection in order to enlist them into the cult, and click them again to dismiss them if they misbehave.
+
+- See profiles of all recruits rendered in `Collection`.
+- Add an individual recruit to my cult by clicking on them. The selected recruit should render in the `Cult` component. The recruit can be enlisted only **once**. The recruit **does not** disappear from the `Collection`.
+- Release a follower from my cult if they misbehave by clicking on them. The follower disappears from the `Cult` component.
